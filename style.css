@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+.nav{
+    background-color: #1F2937;
+    color: aliceblue;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+image{
+    display: flex;
+    height: 30px;
+}

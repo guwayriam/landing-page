@@ -1,22 +1,23 @@
-body{
-    background-color: white;
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{    
+    font-family:'Roboto', sans-serif;
 }
 
-.nav{
-    background-color: #1F2937;
+.blue{
+    background-color: #1f2937;
+    color: white;
+}
+ul{
+    list-style-type: none;
     color: aliceblue;
-    display: flex;
-    padding: 8px;
-    justify-content: space-between;
 }
-
-.links{
-    display: flex;
-    justify-content: space-around;
-}
-
-image{
-    display: flex;
-    height: 30px;
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }

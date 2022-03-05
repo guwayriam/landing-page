@@ -32,7 +32,7 @@ li{
 .blue{
     padding-left: 10%;
     padding-right: 10%;
-
+    
     color: white;
     background-color: #1f2937;
 }
@@ -40,7 +40,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
+    padding-top: 16px;
 }
 
 .top-content{
@@ -76,12 +76,13 @@ li{
 }
 .mid{
     display: flex;
-    flex-shrink: 1;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 18px;
 }
 .mid-image{
     display: flex;
+    
     flex-direction: column;
     align-items: center;
     max-width: 200px;
@@ -91,6 +92,24 @@ li{
     width: 200px;
     height: 200px;
     background-color: #3882F6;
+}
+
+.grey{
+    background-color: gainsboro ;
+    color: rgb(89, 88, 88);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.quote{
+    max-width: 800px;
+}
+.random{
+    display: flex;
+    justify-self: flex-end;
 }
 
 button{

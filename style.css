@@ -30,9 +30,7 @@ li{
 }
 
 .blue{
-    padding-left: 10%;
-    padding-right: 10%;
-    
+    padding: 3% 10%;
     color: white;
     background-color: #1f2937;
 }
@@ -41,6 +39,11 @@ li{
     justify-content: space-between;
     align-items: baseline;
     padding-top: 16px;
+    text-shadow: 0 1px 0 rgb(102, 116, 128);
+}
+
+.nav a:hover{
+    color: #4ca2e4;
 }
 
 .top-content{
@@ -58,13 +61,11 @@ li{
     flex-shrink: 1;
 }
 .right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(103, 107, 125);
+    background-image: url(pics/overview.jpeg);
     height: 200px;
     width: 500px;
     flex-shrink: .5;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -88,15 +89,15 @@ li{
     max-width: 200px;
     
 }
-.cards{
+#cards{
     width: 200px;
     height: 200px;
-    background-color: #3882F6;
+    border: solid 3px #265dab;
 }
 
 .grey{
     background-color: gainsboro ;
-    color: rgb(89, 88, 88);
+    color: #595858;
     padding: 60px;
     display: flex;
     flex-direction: column;
@@ -112,15 +113,90 @@ li{
     justify-self: flex-end;
 }
 
-button{
-    padding: 7px 1em;
-    width: 120px;
-    background-color: #3882F6;
-    border-radius: 8px;
-}
-
 .sign{
     color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    font-size: 1.3em;
+    padding: 3% 1%;
+}
+.safety{
+    background-image: url(pics/safe.png);
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.safe-list{
+    list-style:circle;
+    
+    font-size: 25px;
+    width: 50%;
+}
+.together{
+    display: flex;
+    margin: 1.2em;
+    gap: 5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    
+    
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+tr:nth-of-type(odd){
+    background-color: #d3eef9;
+}
+th,td{ 
+    padding: 0.5em;
+    border: 3px solid #29374a;
+}
+
+
+.foundations{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 1em;;
+}
+.foundations p{
+    width: 50%;
+    margin-top:1em;
+    font-size: 1.2em;
+}
+
+.red{
+    background-image: url(pics/redcross.jpeg);
+    height: 200px;
+    width: 40%;
+    background-repeat: no-repeat;
+    flex-shrink: .5;
+}
+.church{
+    background-image: url(pics/church.png);
+    height: 300px;
+    width: 50%;
+    background-repeat: no-repeat;
+    flex-shrink: .5;
+}
+table{
+    background-color: white;
+    
+}
+#relief-table{
+    background-color: #1f2937;
+    margin-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 

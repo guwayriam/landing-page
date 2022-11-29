@@ -125,11 +125,23 @@ form{
     padding: 3% 1%;
 }
 .safety{
+    background-color: #1f2937;
+    height: auto;
+}
+.image{
     background-image: url(pics/safe.png);
-    height: 200px;
+    height: 400px;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: auto;
+    max-width: 800px;
+    margin:auto;
+}
+.path{
+    background-image: url(pics/path.webp);
+    height: 600px;
+    min-width: 500px;
+    background-size: 100% 100%;
+    max-width: 800px;
+    margin:auto;
 }
 .safe-list{
     list-style:circle;

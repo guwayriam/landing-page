@@ -4,6 +4,13 @@
     margin: 0;
     padding: 0;
 }
+header{
+    text-align: center;
+    font-size: 2rem;
+}
+h2{
+    text-align: center;
+}
 body{    
     font-family:'Roboto', sans-serif;
     font-size: 16px;
@@ -52,7 +59,7 @@ li{
     justify-content: center;
     justify-content: space-between;
     padding: 10%;
-    
+    gap: 30px;
 }
 .left{
     display: flex;
@@ -63,7 +70,8 @@ li{
 .right{
     background-image: url(pics/overview.jpeg);
     height: 200px;
-    width: 500px;
+    min-width: 500px;
+    max-width: 800px;
     flex-shrink: .5;
     background-repeat: no-repeat;
 }
@@ -163,6 +171,7 @@ table{
     
     border-collapse: collapse;
     width: 80%;
+    max-width: 1000px;
     margin: auto;
     text-align: center;
 }
@@ -179,7 +188,12 @@ th,td{
     display: flex;
     text-align: center;
     align-items: center;
-    margin: 1em;;
+    width: 80%;
+    margin: 1em auto;
+    
+    padding: 10px;
+    border: solid 3px #265dab;
+
 }
 .foundations p{
     width: 50%;
@@ -190,26 +204,68 @@ th,td{
 .red{
     background-image: url(pics/redcross.jpeg);
     height: 200px;
-    width: 40%;
+    width: 50%;
     background-repeat: no-repeat;
     flex-shrink: .5;
 }
 .church{
     background-image: url(pics/church.png);
+    background-size: 90% 100%;
+    margin: auto;
     height: 300px;
     width: 50%;
     background-repeat: no-repeat;
     flex-shrink: .5;
+
+}
+.image{
+
 }
 table{
     background-color: white;
     
 }
 #relief-table{
-    background-color: #1f2937;
+    background-color: gainsboro ;
     margin-top: 1.5em;
     padding-bottom: 1.5em;
 }
+.Ian{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.facts{
+    font-size: larger;
+    padding: 1.1em;
+}
 
-
+.recovery{
+    display: flex;
+    gap: 2em;
+    width: 80%;
+    margin: auto; 
+    font-size:larger;
+    padding: 1.1em;
+}
+.recovery-L{
+    width:75%;
+}
+.damage{
+    background-image: url(pics/damage.jpeg);
+    /* max-width: 25%; */
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}
+.damage-fiona{
+    background-image: url(pics/fionadamage.jpeg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+}
 

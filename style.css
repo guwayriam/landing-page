@@ -69,9 +69,11 @@ li{
 }
 .right{
     background-image: url(pics/overview.jpeg);
+    background-size: 100% 100%;
     height: 200px;
     min-width: 500px;
-    max-width: 800px;
+    max-width: 500px;
+    flex-grow: 1.2;
     flex-shrink: .5;
     background-repeat: no-repeat;
 }
@@ -268,4 +270,43 @@ table{
     width: 500px;
     height: 250px;
 }
+.people{
+    display:flex;
+    width: 80%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.donors{
+    background-image: url(pics/therock.webp);
+    background-size: 100% 100%;
+    min-width: 200px;
+    max-width: 25%;
+    flex-grow: 1;
+    height: 300px;
+    margin: auto;
+    border: solid 3px #265dab;
+}
+.manny{
+    
+}
 
+@media (max-width:800px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 1;
+        gap: 5px;
+    }
+    .top-content, .together, .recovery{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .safe-list, .recovery-L{
+        width: 100%;
+    }
+   
+    
+
+}

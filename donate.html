@@ -8,62 +8,60 @@
     <title>Hurricane Alert</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="nav blue">
-        <h3><strong>Hurricane Alert</strong></h3>
-        <div class= "links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="foundations.html">Foundations</a></li>
-                <li><a href="safety.html">Safety</a></li> 
-                <li><a href="Ian.html">Ian</a></li>
-                <li><a href="Fiona.html">Fiona</a></li>
-                <li><a href="Support.html">Support</a></li> 
-                <li><a href="donate.html">Donate</a></li>  
-            </ul>
-        </div>   
-    </div>
+
+<nav class="nav blue">
+    <h3><strong>Hurricane Alert</strong></h3>
+    <div class= "links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="foundations.html">Foundations</a></li>
+            <li><a href="safety.html">Safety</a></li> 
+            <li><a href="Ian.html">Ian</a></li>
+            <li><a href="Fiona.html">Fiona</a></li>
+            <li><a href="Support.html">Support</a></li> 
+            <li><a href="donate.html">Donate</a></li>  
+        </ul>
+    </div>   
+</nav>
+<header>
+    <h2>Choose your Foundation</h2>
+</header>
+<main class = "blue">
     
-    <main class = "blue">
-        <h2>Choose your Foundation</h2>
-        <h3>Donate Today!</h3>
-        <p>Required fields are marked with an asterisk*</p>
-        <form action="http://webdevbasics.net/scripts/demo.php"  method = "post">
-            <label for = 'myFName'>*First Name:</label>
-            <input type="text" name="myFName" id="myFName" required = "required">
-            <label for = 'myLName'>*Last Name:</label>
-            <input type="text" name="myLName" id="myLName" required = "required">
-            <label for = 'myEmail'>*E-mail:</label>
-            <input type="email" name="email" id="myEmail" required = "required">
+    <h3>Donate Today!</h3>
+    <p>Required fields are marked with an asterisk*</p>
+    <form action="http://webdevbasics.net/scripts/demo.php"  method = "post">
+        <label for = 'myFName'>*First Name:</label>
+        <input type="text" name="myFName" id="myFName" required = "required">
+        <label for = 'myLName'>*Last Name:</label>
+        <input type="text" name="myLName" id="myLName" required = "required">
+        <label for = 'myEmail'>*E-mail:</label>
+        <input type="email" name="email" id="myEmail" required = "required">
 
-            <label for = 'myPhone'>Phone:</label>
-            <input type="tel" maxlength="10" name="myPhone" id="myPhone" >
+        <label for = 'myPhone'>Phone:</label>
+        <input type="tel" maxlength="10" name="myPhone" id="myPhone" >
 
-            <label for = 'myAmount'>Amount:</label>
-            <input type="number" max = "14" min = "1" name="night" id="myNights">
-            
-            <label for = 'myComments'>*Comments:</label>
-            <textarea name="myComments" id="myComments" rows="2" cols="30"  required = "required"></textarea>
-            
-            <input id = "submit"type="submit" value="Submit">
-        </form>
-
+        <label for = 'myAmount'>Amount:</label>
+        <input type="number" max = "14" min = "1" name="night" id="myNights">
         
-        <div id="contact">
-            <p><span class="resort">Hurricane Alert</span>  <br>
-            12010 Hurricane Alert <br>
-            Miami, FL 32446 <br><br>
-            855-555-5555</p>
-        </div>
-        <div class="blue">
-            <footer> 
-                <div id="connect">
-                    <h3>Connect with Us</h3>
-                    <div class = "icons"></div>
-                    <a href="guwayria@mohammed.com">guwayria@mohammed.com</a>
-                </div>
-            </footer>
-        </div>
-    </main>
-</body>
+        <label for = 'myComments'>*Comments:</label>
+        <textarea name="myComments" id="myComments" rows="2" cols="30"  required = "required"></textarea>
+        
+        <input id = "submit"type="submit" value="Submit">
+    </form>
+
+    <div id="contact">
+        <p><span class="resort">Hurricane Alert</span>  <br>
+        12010 Hurricane Alert <br>
+        Miami, FL 32446 <br><br>
+        855-555-5555</p>
+    </div>
+</main>
+<footer class = "blue"> 
+    <div id="connect">
+        <h3>Connect with Us</h3>
+        <div class = "icons"></div>
+        <a href="guwayria@mohammed.com">guwayria@mohammed.com</a>
+    </div>
+</footer>
 </html>
